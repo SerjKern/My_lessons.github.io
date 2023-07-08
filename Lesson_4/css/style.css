@@ -1,0 +1,28 @@
+body {
+  background-color: #fffcc8bd;
+}
+
+p {
+  margin: 0;
+}
+
+.main-text {
+  max-width: 700px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #dbdada;
+}
+
+.text-one {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text-image {
+  max-width: 500px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.image-bottom {
+  margin-top: 30px;
+}
