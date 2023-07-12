@@ -25,4 +25,49 @@ p {
 
 .image-bottom {
   margin-top: 30px;
+} 
+
+h1 {
+  font-size: 35px;
+  color: brown;
+} 
+h2 {
+  font-size: 30px;
+  color: blueviolet;
+} 
+h3 {
+  font-size: 25px;
+  color:#800000 ;
+}
+
+h4 {
+  font-size: 25px;
+  color: #800080;
+
+} 
+h5 {
+  font-size: 20px;
+  color: cadetblue;
+} 
+h6 {
+  font-size: 15px;
+  color: #008000;
+}
+
+.text {
+  font-weight: 700;
+} 
+.text {
+  color: blue;
+}
+
+.text_2 { 
+  font-weight: bold;
+  color: red;
+  text-decoration: line-through;
+} 
+
+.text {
+  text-decoration: underline; 
+  font-style: italic;
 }
