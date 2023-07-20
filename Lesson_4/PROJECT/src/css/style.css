@@ -1,110 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #fffcc8bd;
+  background: #FFF;
 }
 
-p {
-  margin: 0;
-}
-
-.main-text { 
-  font-style: italic;
-  font-weight: 600;
-  max-width: 700px;
-  padding: 10px 20px 10px 20px;
-  border: 1px solid #dbdada;
-}
-
-.text-one {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.text-image {
-  max-width: 500px;
-  display: block;
-  margin-bottom: 30px;
-}
-
-.image-bottom {
-  margin-top: 30px;
-} 
-
-h1 {
-  font-size: 35px;
-  color: brown;
-} 
-h2 {
-  font-size: 30px;
-  color: blueviolet;
-} 
-h3 {
-  font-size: 25px;
-  color:#800000 ;
-}
-
-h4 {
-  font-size: 25px;
-  color: #800080;
-
-} 
-h5 {
-  font-size: 20px;
-  color: cadetblue;
-} 
-h6 {
-  font-size: 15px;
-  color: #008000;
-}
-
-.text {
-  font-weight: 700;
-} 
-.text {
-  color: blue;
-}
-
-.text_2 { 
-  font-weight: bold;
-  color: red;
-  text-decoration: line-through;
-} 
-
-.text {
-  text-decoration: underline; 
-  font-style: italic;
-} 
-
-.box{ 
+.main-block {
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   display: inline-block;
-/* ширина */
-width: 300px;
-/* Высота */
-height: 300px;
-/* фоновый цвет */
-background-color: red;
-/* внутриние отступы */
-padding-left: 20px;
-padding-top: 30px;
-padding-right: 40px;
-padding-bottom: 15px;
-/* Рамка */
-border-color: black;
-border-width: 5px;
-border-style: solid;
-/* внешние отступы */
-margin: 10px;
-} 
+  padding: 32px 23px;
+}
 
-.link { 
-  display: block;
-  background-color: gray;
-  padding: 10px;
-  margin-top: 20px;
-  
-}   
-button {
-  display: block;
-  height: 40px;
-  width: 300px;
-  margin-top: 20px;
+.block_image {
+  display: inline-block;
+  max-width: 306px;
+}
+
+.headphone_beats {
+  max-width: 100%;
+}
+
+.block_text {
+  display: inline-block;
+  max-width: 300px;
+  margin-left: 150px;
+}
+
+.block_text_title {
+  font-weight: 700;
+}
+
+.block_text_description {
+  margin-top: 34px;
+}
+
+.price_text {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  margin-top: 32px;
+  padding: 13px 24px;
+  background: #EC734A;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+.price {
+  width: 127px;
+  color: #000;
+  font-weight: 700;
 }
