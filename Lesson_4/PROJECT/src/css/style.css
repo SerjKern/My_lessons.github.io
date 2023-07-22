@@ -1,59 +1,9 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body {
-  background: #FFF;
-}
-
-.main-block {
-  border: 1px solid rgba(0, 0, 0, 0.20);
-  background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  display: inline-block;
-  padding: 32px 23px;
-}
-
-.block_image {
-  display: inline-block;
-  max-width: 306px;
-}
-
-.headphone_beats {
-  max-width: 100%;
-}
-
-.block_text {
-  display: inline-block;
-  max-width: 300px;
-  margin-left: 150px;
-}
-
-.block_text_title {
-  font-weight: 700;
-}
-
-.block_text_description {
-  margin-top: 34px;
-}
-
-.price_text {
-  color: #000;
-  font-size: 12px;
-  font-weight: 600;
-  margin-top: 10px;
-}
-
-.add-to-cart {
-  margin-top: 32px;
-  padding: 13px 24px;
-  background: #EC734A;
-  color: #FFF;
-  font-size: 18px;
-  font-weight: 700;
-}
-.price {
-  width: 127px;
-  color: #000;
-  font-weight: 700;
+p {
+  margin: 0;
+  padding: 0;
 }
