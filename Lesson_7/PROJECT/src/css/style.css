@@ -20,8 +20,6 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
 }
 
 .element {
