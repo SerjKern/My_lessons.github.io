@@ -7,3 +7,24 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #000;
+  width: 90%;
+  margin: auto;
+  height: 150px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.element {
+  width: 500px;
+  background-color: gray;
+}
