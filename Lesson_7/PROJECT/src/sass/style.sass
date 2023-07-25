@@ -5,34 +5,42 @@ p
   margin: 0
   padding: 0
 
-.block
-  border: 1px solid #000000 
-  display: flex
-  justify-content: space-around
-  width: 1920px
+.main_block
+  max-width: 1920px
+  width: 100%
+  box-shadow: 0px 0px 6px 0px gray
   margin: auto
   height: 723px
-  flex-direction: row
-  margin-top: 256px
   background-color: #f9f9f9
-.element_knife
-  width: 218px
-  height: 210px
 
-.element_cutter
-  width: 223px
-  height: 210px
+  .text_title
+    text-align: center
+    margin-top: 100px
+    font-size: 36px
+    font-weight: 400
 
-.element_rug
-  width: 212px
-  height: 208px
+  .block-goods
+    margin-top: 125px
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 30px
+    flex-wrap: wrap
 
-.element_ruler
-  width: 263px
-  height: 210px
-  .box
-    background: #e3e3e3
-    margin-left: 391px
-    margin-top: 256px
-    margin-right: 1266px
-    margin-bottom: 257px
+  .block-product-title
+    margin-top: 25px
+
+  .block-product-price
+    margin-top: 25px
+
+  .block-product-btn
+    margin-top: 25px
+    border: 1px solid #23bac1
+    padding: 23px 75px 23px 75px
+    color: #23bac1
+    font-size: 13px
+    font-weight: 700
+    background-color: transparent
+
+
