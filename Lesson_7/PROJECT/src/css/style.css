@@ -14,8 +14,8 @@ p {
   -webkit-box-shadow: 0px 0px 6px 0px gray;
           box-shadow: 0px 0px 6px 0px gray;
   margin: auto;
-  height: 723px;
   background-color: #f9f9f9;
+  padding: 23px 5px;
 }
 .main_block .text_title {
   text-align: center;
