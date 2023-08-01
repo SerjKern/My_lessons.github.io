@@ -21,6 +21,7 @@ p {
 .navbar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 159px;
 }
 
 .brand {
@@ -28,6 +29,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  
 }
 
 .social a {
@@ -38,6 +40,7 @@ p {
 .hero {
   padding-top: 74px;
   padding-bottom: 190px;
+  background-color: #f4f5f7;
 }
 
 .main {
@@ -84,4 +87,22 @@ p {
   margin-bottom: 49px;
   font-size: 48px;
   font-weight: 400;
+}
+
+.btn {
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  padding: 20px 30px;
+  color: #ffffff;
+  background-color: gray;
+}
+
+.btn-success {
+  background-color: #2dce89;
+  margin-right: 20px;
+}
+
+.btn-primary {
+  background-color: #5e72e4;
 }
