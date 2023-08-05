@@ -177,3 +177,36 @@ p {
   line-height: 1.4;
   
 }
+
+
+.section-subtitle2 {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #32325f;
+  
+}
+
+.section-title2 {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 14px;
+  width: 370px;
+  height: 57px;
+}
+
+.people {
+  background-color: #f4f5f7;
+  display: block;
+  justify-content: space-between;
+}
+
+.block_2 {
+  display:inline-block;
+  width: 362px;
+  height: 254px;
+  margin-bottom: 36px;
+  
+ 
+}
