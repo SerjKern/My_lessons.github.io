@@ -16,51 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   margin: 0;
 }
-
-.text-center {
-  text-align: center;
-  margin-top: 70px;
-}
-
-.main_block {
-  margin-top: 83px;
-}
-.main_text {
-  margin-top: 20px;
-}
-.main_col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media (max-width: 1200px) {
-  .main_col {
-    margin-bottom: 20px;
-  }
-} wrap;
-}
-.main_block .block-product-title {
-  margin-top: 25px;
-}
-.main_block .block-product-price {
-  margin-top: 25px;
-}
-.main_block .block-product-btn {
-  margin-top: 25px;
-  border: 1px solid #23bac1;
-  padding: 23px 75px 23px 75px;
-  color: #23bac1;
-  font-size: 13px;
-  font-weight: 700;
-  background-color: transparent;
+body .subtitle {
+  font-size: 20px;
+  font-weight: 400;
 }
