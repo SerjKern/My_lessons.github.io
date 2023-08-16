@@ -2,6 +2,10 @@
   color: #32325f;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .subtitle {
   font-size: 20px;
   font-weight: 400;
@@ -21,4 +25,19 @@
   margin-top: 100px;
 }
 
+.buttons {
+  margin-top: 30px;
+}
 
+
+.hero {
+  background-color: #f4f5f7;
+  padding-top: 70px;
+  padding-bottom: 190px;
+  
+}
+
+.section {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
