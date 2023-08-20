@@ -1,3 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   color: #32325f;
 }
@@ -47,12 +57,47 @@
 .section-subtitle {
   font-size: 20px;
   font-weight: 400;
+  margin-top: 90px;
 }
 
 .people {
-  background-color: #f4f5f7
+  background-color: #f4f5f7;
+  display: block;
+  justify-content: space-between;
+  
+}
+
+.img {
+  margin-bottom: 36px;
 }
 
 .footer {
   background-color: #32325f;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+ 
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block {
+  width: 33%;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.footer a {
+  display: block;
+  color: #ffffff;
+}
+
+.footer p {
+  line-height: 1.4;
+  
 }
