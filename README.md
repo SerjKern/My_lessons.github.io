@@ -12,6 +12,4 @@
 
 [Lesson_10](https://serjkern.github.io/my_lessons.github.io/Lesson_10/PROJECT/src)
 
-[Lesson_11](https://serjkern.github.io/my_lessons.github.io/Lesson_11/PROJECT/src)
-
 [Lesson_13](https://serjkern.github.io/my_lessons.github.io/Lesson_13/PROJECT/src)
