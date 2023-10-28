@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Museo Sans  Light";
+  src: url("../fonts/MuseoSansCytl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCytl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCytl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCytl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: sans-serif;
 }
@@ -106,6 +113,7 @@ img {
   font-weight: 400;
   line-height: 55px;
   margin-bottom: 40px;
+  font-family: Museo Sans Light;
 }
 .hero-text__subtitle {
   display: inline-block;
