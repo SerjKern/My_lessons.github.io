@@ -17,3 +17,5 @@
 [Lesson_14](https://serjkern.github.io/my_lessons.github.io/Lesson_14/PROJECT/src)
 
 [Lesson_15](https://serjkern.github.io/my_lessons.github.io/Lesson_15/PROJECT/src)
+
+[Lesson_16](https://serjkern.github.io/my_lessons.github.io/Lesson_16/PROJECT/src)
