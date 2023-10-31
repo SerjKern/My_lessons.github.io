@@ -43,6 +43,10 @@ img {
   border: none;
   padding: 18px 30px;
 }
+.button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
 
 .navbar {
   padding: 8px 0;
@@ -143,6 +147,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px;
+}
+.hero-list__item:last-child {
+  margin-bottom: 0;
 }
 .hero-list__image {
   width: 40px;
