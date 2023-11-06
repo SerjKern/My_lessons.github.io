@@ -226,6 +226,9 @@ img {
   .hero-list__image {
     margin-right: 15px;
   }
+  .hero:main-text {
+    display: block;
+  }
 }
 .offer {
   background: url("../img/offer/offer-bg.png") no-repeat;
