@@ -226,6 +226,13 @@ img {
   .hero-list__image {
     margin-right: 15px;
   }
+  .main-text__text {
+    font-family: "Museo Sans Cyrl";
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #333333;
+  }
 }
 .offer {
   background: url("../img/offer/offer-bg.png") no-repeat;
@@ -256,6 +263,10 @@ img {
   max-width: 250px;
   margin-bottom: 30px;
 }
+.offer__input {
+  margin-right: 14px;
+  margin-bottom: 30px;
+}
 .offer__form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,36 +279,17 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.offer__input {
-  margin-bottom: 30px;
-  max-width: 240px;
-}
-.offer__input:first-child {
-  margin-right: 10px;
-}
 .offer__button {
-  width: 100%;
-  min-height: 70px;
+  width: 97%;
 }
-
-@media (max-width: 1200px) {
-  .offer {
-    background-size: cover;
-  }
-  .offer__input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .offer__button {
-    font-size: 13px;
-  }
-}
-@media (max-width: 768px) {
-  .offer {
-    background: #fff;
-  }
-  .offer-block {
-    width: 100%;
-    padding-right: 0;
-  }
+.offer__flex {
+  margin-top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Museo Sans Cyrl";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #333333;
 }
