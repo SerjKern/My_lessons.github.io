@@ -264,7 +264,7 @@ img {
   margin-bottom: 30px;
 }
 .offer__input {
-  margin-right: 14px;
+  margin-right: 5px;
   margin-bottom: 30px;
 }
 .offer__form {
@@ -280,7 +280,24 @@ img {
           justify-content: space-between;
 }
 .offer__button {
-  width: 97%;
+  width: 100%;
+  min-height: 70px;
+}
+@media (max-width: 1200px) {
+  .offer .offer {
+    background-color: #fff;
+  }
+  .offer .offer-block {
+    width: 100%;
+    padding-right: 0;
+  }
+  .offer .offer__input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .offer .offer__button {
+    font-size: 12px;
+  }
 }
 .offer__flex {
   margin-top: 31px;
