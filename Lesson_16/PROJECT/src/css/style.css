@@ -178,6 +178,7 @@ img {
   margin-bottom: 0;
 }
 .hero-list__image {
+  min-width: 40px;
   width: 40px;
   height: 40px;
   border: 2px solid #ffd200;
@@ -193,6 +194,7 @@ img {
   border-radius: 50%;
   margin-right: 30px;
 }
+
 @media (max-width: 1200px) {
   .hero-block {
     -webkit-box-orient: vertical;
@@ -284,36 +286,52 @@ img {
   min-height: 70px;
 }
 @media (max-width: 1200px) {
-  .offer .offer {
-    background-color: #fff;
+  .offer {
+    background: #fff;
   }
-  .offer .offer-block {
+  .offer-block {
     width: 100%;
     padding-right: 0;
   }
-  .offer .offer__input {
+  .offer__input {
     width: 100%;
     margin-bottom: 10px;
   }
-  .offer .offer__button {
+  .offer__button {
     font-size: 12px;
   }
 }
-.offer__flex {
-  margin-top: 31px;
+
+.offer-info {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Museo Sans Cyrl";
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 73px;
+     -moz-column-gap: 73px;
+          column-gap: 73px;
+}
+.offer-info__text {
+  max-width: 205px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Museo Sans  Light", sans-serif;
+  font-weight: 300;
   font-size: 15px;
   line-height: 24px;
-  font-weight: 300;
   color: #333333;
 }
-.offer__phone {
-  font-family: "Museo Sans Cyrl";
-  font-size: 15px;
-  line-height: 24px;
+.offer-info__text a {
+  font-family: "Museo Sans  Bold", sans-serif;
   font-weight: 700;
   color: #333333;
+  text-decoration: none;
 }
