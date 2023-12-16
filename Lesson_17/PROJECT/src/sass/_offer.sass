@@ -23,7 +23,7 @@
     max-width: 250px
     margin-bottom: 30px
   &__input
-    margin-right: 14px
+    margin-right: 5px
     margin-bottom: 30px
   &__form
     display: flex
@@ -31,19 +31,35 @@
     align-content: space-between
     justify-content: space-between
   &__button
-    width: 97%
+    width: 100%
+    min-height: 70px
 
-  &__flex
-    margin-top: 31px
+  @media (max-width: 1200px)
+    background: #fff
+    &-block
+      width: 100%
+      padding-right: 0
+    &__input
+      width: 100%
+      margin-bottom: 10px
+    &__button
+      font-size: 12px
+
+.offer-info
+  width: 100%
+  display: flex
+  justify-content: space-between
+  column-gap: 73px
+  &__text
+    max-width: 205px
     display: flex
-    font-family: 'Museo Sans Cyrl'
+    flex-direction: column
+    +reg
     font-size: 15px
     line-height: 24px
-    font-weight: 300
     color: #333333
-  &__phone
-    font-family: 'Museo Sans Cyrl'
-    font-size: 15px
-    line-height: 24px
-    font-weight: 700
-    color: #333333
+
+    a
+      +bold
+      color: #333333
+      text-decoration: none
