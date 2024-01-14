@@ -6,6 +6,7 @@
     <title>Lesson_20</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -207,8 +208,10 @@
           <span class="section-subtitle price__subtitle">Прайс на наши услуги</span>
           <!-- /.section-subtitle price__subtitle -->
           <div class="cards">
-            <div class="card price__card">
-              <div class="card__image"><img src="img/price/bathroom.jpg" alt=""></div>
+            <div class="card price__card animate__animated animate__fadeInUp ">
+              <div class="card__image">
+                <img src="img/price/bathroom.jpg" alt="" />
+              </div>
               <!-- /.card__image -->
               <div class="card__text">
                 <h4 class="card__title">Ремонт ванных комнат и с/у</h4>
@@ -219,8 +222,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
-              <div class="card__image"><img src="img/price/livingroom.jpg" alt=""></div>
+            <div class="card price__card animate__animated animate__fadeInUp">
+              <div class="card__image">
+                <img src="img/price/livingroom.jpg" alt="" />
+              </div>
               <!-- /.card__image -->
               <div class="card__text">
                 <h4 class="card__title">Ремонт комнат и квартир</h4>
@@ -231,8 +236,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
-              <div class="card__image"><img src="img/price/office.jpg" alt=""></div>
+            <div class="card price__card animate__animated animate__fadeInUp">
+              <div class="card__image">
+                <img src="img/price/office.jpg" alt="" />
+              </div>
               <!-- /.card__image -->
               <div class="card__text">
                 <h4 class="card__title">Отделка офисных помещений</h4>
@@ -243,8 +250,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
-              <div class="card__image"><img src="img/price/buildings.jpg" alt=""></div>
+            <div class="card price__card animate__animated animate__fadeInUp">
+              <div class="card__image">
+                <img src="img/price/buildings.jpg" alt="" />
+              </div>
               <!-- /.card__image -->
               <div class="card__text">
                 <h4 class="card__title">Ремонт в новостройках</h4>
@@ -255,8 +264,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
-              <div class="card__image"><img src="img/price/kitchen.jpg" alt=""></div>
+            <div class="card price__card animate__animated animate__fadeInUp">
+              <div class="card__image">
+                <img src="img/price/kitchen.jpg" alt="" />
+              </div>
               <!-- /.card__image -->
               <div class="card__text">
                 <h4 class="card__title">Ремонт кухонь</h4>
@@ -267,8 +278,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
-              <div class="card__image"><img src="img/price/houses.jpg" alt=""></div>
+            <div class="card price__card animate__animated animate__fadeInUp">
+              <div class="card__image">
+                <img src="img/price/houses.jpg" alt="" />
+              </div>
               <!-- /.card__image -->
               <div class="card__text">
                 <h4 class="card__title">Ремонт дач и коттеджей</h4>
@@ -302,7 +315,11 @@
     ></script>
     <script src="js/modal.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script>
+      /*Инициализация wow*/
+      new WOW().init();
+      /*Инициализация слайдера*/
       $(document).ready(function () {
         $(".slider").slick({
           slidesToShow: 3,
