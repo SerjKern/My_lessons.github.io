@@ -395,3 +395,12 @@ img {
 .slider__image {
   margin: auto;
 }
+
+.price__title {
+  margin: auto;
+  margin-bottom: 58px;
+}
+.price__subtitle {
+  margin-bottom: 59px;
+  text-align: center;
+}
