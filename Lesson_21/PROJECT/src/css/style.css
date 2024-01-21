@@ -83,6 +83,10 @@ img {
   cursor: pointer;
 }
 
+.error {
+  border: 1px solid red;
+}
+
 .navbar {
   padding: 8px 0;
 }
@@ -694,7 +698,7 @@ img {
   .brif {
     background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
     background-position: top center, center bottom;
-    background-size: 100%, cover;
+    background-size: 100% 50%, cover;
     background-repeat: repeat-x, no-repeat;
   }
   .brif-block {
