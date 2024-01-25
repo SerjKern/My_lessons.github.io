@@ -31,3 +31,5 @@
 [Lesson_21](https://serjkern.github.io/my_lessons.github.io/Lesson_21/PROJECT/src)
 
 [Lesson_22](https://serjkern.github.io/my_lessons.github.io/Lesson_22/PROJECT/src)
+
+[Lesson_23](https://serjkern.github.io/my_lessons.github.io/Lesson_23/PROJECT/src)
