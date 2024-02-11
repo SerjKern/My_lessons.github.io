@@ -777,3 +777,17 @@ img {
   font-weight: 300;
   color: #000000;
 }
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.images__footer-image {
+  width: 370px;
+  height: 260px;
+  background-color: #f7f7f7;
+}
