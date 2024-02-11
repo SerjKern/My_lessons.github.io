@@ -763,3 +763,17 @@ img {
           align-items: flex-start;
   margin-bottom: 39px;
 }
+
+.overview {
+  background-color: #ffc000;
+  width: 1920px;
+  height: 280px;
+}
+
+.text {
+  font-family: "Museo Sans Cyrl";
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #000000;
+}
