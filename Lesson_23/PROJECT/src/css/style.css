@@ -766,6 +766,9 @@ img {
 
 .overview {
   background-color: #ffc000;
+}
+
+.container_text {
   width: 1920px;
   height: 280px;
 }
@@ -778,15 +781,16 @@ img {
   color: #000000;
 }
 
-.images {
+.images_footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
 }
-.images__footer-image {
+.images_footer__footer-image {
   width: 370px;
   height: 260px;
   background-color: #f7f7f7;
