@@ -795,3 +795,9 @@ img {
   height: 260px;
   background-color: #f7f7f7;
 }
+
+.treaty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
