@@ -769,6 +769,11 @@ img {
 }
 
 .container_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 1920px;
   height: 280px;
 }
