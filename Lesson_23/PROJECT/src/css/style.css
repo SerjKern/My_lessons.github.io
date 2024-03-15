@@ -800,4 +800,5 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 30px;
 }
