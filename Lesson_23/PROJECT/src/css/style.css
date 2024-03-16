@@ -767,43 +767,140 @@ img {
 .overview {
   background-color: #ffc000;
 }
-
-.container_text {
+.overview-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 1920px;
-  height: 280px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-.text {
-  font-family: "Museo Sans Cyrl";
+.overview-text {
+  display: inline-block;
+  text-align: center;
   font-size: 32px;
   line-height: 50px;
   font-weight: 300;
   color: #000000;
 }
+@media screen and (max-width: 1024px) {
+  .overview-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .overview-text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
 
-.images_footer {
+.helper-images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
 }
-.images_footer__footer-image {
-  width: 370px;
-  height: 260px;
-  background-color: #f7f7f7;
+.helper-image {
+  position: relative;
+  max-width: 350px;
+}
+.helper-text {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 13px;
+}
+.helper-text b {
+  font-family: "Museo Sans  Bold", sans-serif;
+  font-weight: 700;
 }
 
-.treaty {
+@media screen and (max-width: 1200px) {
+  .helper-images {
+    gap: 10px;
+  }
+  .helper-image {
+    max-width: 220px;
+  }
+  .helper-text {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .helper-image {
+    max-width: 100%;
+  }
+  .helper-text {
+    font-size: 13px;
+  }
+}
+.treaty-title {
+  max-width: 560px;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .treaty-title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+.treaty-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+.treaty-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  max-width: 350px;
+  min-width: 250px;
+}
+@media screen and (max-width: 650px) {
+  .treaty-image {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.treaty-image__text {
+  text-align: center;
+  max-width: 260px;
 }
